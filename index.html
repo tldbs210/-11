@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>열역학 탐구하기</title>
+    <link rel="stylesheet"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <style>
+        /* 카드 이미지 높이 조정 */
+        .card-img-top {
+            height: 300px;
+        }
+
+        /* 카드 hover 효과 */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 20rem; /* 카드 가로 길이 변경 */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.782);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero bg-dark text-center py-5">
+        <h1 class="text-white">열역학 탐구하기</h1>
+        <h2 class="text-white">열역학과 관련된 법칙을 알아보자!</h2>
+    </div>
+    <div class="container mt-5">
+        <!-- 첫 번째 줄 카드 -->
+        <div class="row justify-content-center">
+            <!-- 열역학 제 0법칙 -->
+            <div class="col-md-3 d-flex justify-content-center mb-4">
+                <div class="card" style="height:500px">
+                    <img src="https://th.bing.com/th/id/OIP.V9ilhRpetJj85U5mN5GTwgHaGu?rs=1&pid=ImgDetMain"
+                        class="card-img-top" alt="이미지" />
+                    <div class="card-body">
+                        <h5 class="card-title">열역학 제 0법칙</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">열적 평형</h6>
+                        <p class="card-text">
+                            온도가 다른 물체를 접촉시키면 높은 온도를 지닌 물체의 온도는 내려가고 낮은 온도의 물체의 온도는 올라가서 결국 두 물체는 열평형 상태가 된다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 열역학 제 1법칙 -->
+            <div class="col-md-3 d-flex justify-content-center mb-4">
+                <div class="card" style="height: 500px">
+                    <img src="https://th.bing.com/th/id/OIP.bFLZjp9C3veBNDC5MlBMvgHaD7?w=304&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        class="card-img-top" alt="이미지" />
+                    <div class="card-body">
+                        <h5 class="card-title">열역학 제 1법칙</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">에너지 보존법칙</h6>
+                        <p class="card-text">
+                            열과 일은 에너지의 한 형태로 일은 열로, 열은 일로 변환이 가능하다.
+                            즉, 하나의 계가 가지고 있는 에너지는 형태만 바뀔 뿐 에너지의 총량은 일정하다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+             <!-- 열역학 제 2법칙 -->
+             <div class="col-md-3 d-flex justify-content-center mb-4">
+                <div class="card" style="height: 500px">
+                    <img src="https://t3.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/Yxp/image/bEvb48JUcZKGo_kT4avjFuydCSc.png"
+                        class="card-img-top" alt="이미지" />
+                    <div class="card-body">
+                        <h5 class="card-title">열역학 제 2법칙</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">가역 비가역의 법칙, 엔트로피 증가 법칙</h6>
+                        <p class="card-text">
+                            고립된 계에서는 엔트로피가 증가하는 현상만 일어나며 감소하지 않는다.
+                            에너지가 고립된 계에서는 엔트로피가 증가하는 현상만 일어나며 감소하지 않는다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 열역학 제 3법칙 -->
+            <div class="col-md-3 d-flex justify-content-center mb-4">
+                <div class="card" style="height: 500px">
+                    <img src="https://th.bing.com/th/id/OIP.BiBf_pYGDjfstt5etGEOTAHaEW?w=275&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        class="card-img-top" alt="이미지" />
+                    <div class="card-body">
+                        <h5 class="card-title">열역학 제 3법칙</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">절대영도에서의 엔트로피</h6>
+                        <p class="card-text">
+                            절대 영도에서 엔트로피는 0이 된지만 0K 이하의 온도는 불가능한 온도다.
+                            즉, 절대 영도에 한없이 가까워지면 엔트로피 변화량은 무한히 0에 가까워진다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 두 번째 줄 카드 -->
+        <div class="row justify-content-center">
+            <!--  카르노 기관 -->
+            <div class="col-md-4 d-flex justify-content-center mb-4">
+                <div class="card" style="height: 525px">
+                    <img src= "https://th.bing.com/th/id/R.37eeb7d18deb06556cc7b692a557ad13?rik=rLHy%2bPZv2KwOxA&riu=http%3a%2f%2fmid.m-teacher.co.kr%2fupload%2fTBook%2f003%2f003%2f194%2f001002%2fIMAGE%2f123501_1.jpg&ehk=GWrN6JtXBv5mtFvruE9Po9w9TIGPcyIYyngXIKKIXL4%3d&risl=&pid=ImgRaw&r=0"
+                        class="card-img-top" alt="이미지" />
+                    <div class="card-body">
+                        <h5 class="card-title">카르노 기관</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">가장 이상적인 열기관</h6>
+                        <p class="card-text">
+                            모든 과정이 가역 과정인 카르노 사이클의 4단계(등온 팽창, 단열 팽창, 등온 압축, 단열 압축)로 이루어진 
+                            카르노 기관은 이상 기체를 작동 유체로 사용하는 가상의 열 기관으로, 열 손실이 없기 때문에 존재하는 열 기관 중 가장 높은 효율을 가지며 카르노 기관보다 높은 열효율의 기관은 만들 수 없다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 보일의 법칙 -->
+            <div class="col-md-4 d-flex justify-content-center mb-4">
+                <div class="card" style="height: 500px">
+                    <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA3MTRfMTI5/MDAxNTk0Njg4OTc5MjQ1.qRYRlrOhx4eLuidT5c4vWG83iD6mKUHOKWuZurRVudUg.9nn2_j2S94oqqhYCTu9uCz2pkNx5IROJ04bHSxKJ6Qwg.PNG.0206tkdwns/a.PNG?type=w800"
+                        class="card-img-top" alt="이미지" />
+                    <div class="card-body">
+                        <h5 class="card-title">보일의 법칙</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">기체의 압력과 부피</h6>
+                        <p class="card-text">
+                            일정한 온도에서 일정량의 기체의 부피는 압력에 반비례한다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+             <!-- 샤를의 법칙 -->
+             <div class="col-md-4 d-flex justify-content-center mb-4">
+                <div class="card" style="height: 500px">
+                    <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA3MTRfMTY0/MDAxNTk0Njg5MDUyNDk4.7edZphF_hHvSlCiqEhMwP1YbcF1-R9UoeaDkEsUsdogg.X2qke86ilAcaC1qxISkt7JRSnAPrW_M0_KzOx923cZEg.PNG.0206tkdwns/b.PNG?type=w800"
+                        class="card-img-top" alt="이미지" />
+                    <div class="card-body">
+                        <h5 class="card-title">샤를의 법칙</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">기체의 온도와 부피</h6>
+                        <p class="card-text">
+                            압력이 일정할 때 부피와 온도는 비례관계에 있다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
